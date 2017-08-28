@@ -12,12 +12,11 @@ import os
 
 
 os.system("yum -y groupinstall 'Development Tools'")
-os.system("yum -y yum install zlib-devel bzip2-devel  openssl-devel ncurses-deve")
+os.system("yum -y install zlib-devel bzip2-devel  openssl-devel ncurses-deve")
 os.system('yum  -y install readline-devel')
 
 
 os.system('rm Python-3.*.* -rf')
-os.system("yum -y yum install zlib-devel bzip2-devel  openssl-devel ncurses-deve")
 os.system('wget  https://www.python.org/ftp/python/3.6.2/Python-3.6.2.tar.xz')
 os.system('tar Jxvf  Python-3.6.2.tar.xz')
 os.system('cd Python-3.6.2')
