@@ -22,6 +22,6 @@ os.system('tar Jxvf  Python-3.6.2.tar.xz')
 os.system('cd Python-3.6.2')
 if not os.path.exists('/usr/local/python36'):
     os.system('mkdir /usr/local/python36')
-os.system('./configure --prefix=/usr/local/python35')
+os.system('./configure --prefix=/usr/local/python36')
 os.system('make && make install')
 os.system("echo 'export PATH=$PATH:/usr/local/python36/bin' >> ~/.bashrc")
