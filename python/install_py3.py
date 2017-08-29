@@ -14,6 +14,7 @@ import os
 os.system("yum -y groupinstall 'Development Tools'")
 os.system("yum -y install zlib-devel bzip2-devel  openssl-devel ncurses-deve")
 os.system('yum  -y install readline-devel')
+os.system('yum -y install sqlite-devel')
 
 
 os.system('rm Python-3.*.* -rf')
